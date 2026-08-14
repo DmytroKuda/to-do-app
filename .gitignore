@@ -1,0 +1,25 @@
+# 1. Ignore everything by default
+*
+!*/
+
+# 2. Allow only project files
+!*.py
+!*.txt
+!*.ico
+!*.md
+!.gitignore
+
+# 3. Block cache, virtual environments, and IDE junk
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+.idea/
+.vscode/
+*.tmp
+*.log
+build/
+dist/
+*.spec
