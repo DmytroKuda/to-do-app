@@ -9,7 +9,15 @@
 !*.md
 !.gitignore
 
-# 3. Block cache, virtual environments, and IDE junk
+# Screenshots / Images for README
+!*.png
+!*.jpg
+!*.jpeg
+
+# 3. Explicitly ignore cache, builds, and environments
+build/
+dist/
+*.spec
 __pycache__/
 *.py[cod]
 *$py.class
@@ -20,6 +28,3 @@ ENV/
 .vscode/
 *.tmp
 *.log
-build/
-dist/
-*.spec
